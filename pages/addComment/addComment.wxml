@@ -1,0 +1,27 @@
+
+<view class="box">
+    <view class="shuru"> 
+        <textarea class="shuru1"placeholder="这一刻的想法" placeholder-style="font-size:10pt;"  name="content"/>
+    </view>
+
+    <view class="images-wrapper">
+      <view class="weui-uploader">
+          <view class="weui-uploader__bd">
+              <view class="weui-uploader__files" id="uploaderFiles">
+                  <block wx:for="{{files}}" wx:key="*this">
+                      <view class="weui-uploader__file" bindtap="previewImage" id="{{item}}">
+                          <image class="weui-uploader__img" src="{{item}}" mode="aspectFill" />
+                      </view>
+                  </block>
+              </view>
+              <view class="weui-uploader__input-box">
+                  <view class="weui-uploader__input" bindtap="chooseImage"></view>
+              </view>
+          </view>
+      </view>
+    </view> 
+    <button class="buttona" form-type="submit">提交</button>
+</view>
+
+
+        

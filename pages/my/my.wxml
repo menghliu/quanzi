@@ -1,0 +1,29 @@
+<!--my.wxml-->
+<view class="box">
+
+<view class="weui-cells weui-cells_after-title" style="margin-bottom:20rpx;">
+    <view class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+        <view class="weui-cell__hd">
+            <image src="{{avatarUrl}}" style="margin-right: 20rpx;vertical-align: middle;width:80rpx; height: 80rpx;"></image>
+        </view>
+        <view class="weui-cell__bd">{{nickName}}</view>
+    </view>
+</view>
+
+<view class="weui-cells weui-cells_after-title">
+    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+        <view class="weui-cell__hd">
+            <image src="/images/pb.png" style="margin-right: 10rpx;vertical-align: middle;width:40rpx; height: 40rpx;"></image>
+        </view>
+        <view class="weui-cell__bd">我的发布</view>
+        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+    </navigator>
+    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+        <view class="weui-cell__hd">
+            <image src="/images/ph.png" style="margin-right: 10rpx;vertical-align: middle;width:40rpx; height: 40rpx;"></image>
+        </view>
+        <view class="weui-cell__bd">联系客服</view>
+        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+    </navigator>
+</view>
+</view>

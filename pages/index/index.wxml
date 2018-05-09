@@ -1,0 +1,182 @@
+<!--index.wxml-->
+<!-- 广告区 -->
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}" wx:key="*this">
+    <swiper-item>
+      <image src="{{item}}" model="aspectFit" style="width:100%;" />
+    </swiper-item>
+  </block>
+</swiper>
+
+<!-- 内容区 -->
+<view class="content">
+  <!--头像-->
+    <view class="head">
+      <image class="baseimg" src="/images/bg.jpg"></image>
+    </view>
+    <!--昵称-->
+    <text class="wz">王超</text>
+    <!--内容-->
+    <text class="desc">无解的百草枯，哪怕一滴是接触皮肤了，也是有生命危险的，小孩子不能接触，家里有的把这个都放到孩子够不到的地方。</text>
+    <!-- 照片区 -->
+    <!--显示发布时间-->
+    <view class="weui-flex" style="margin-top:20rpx;">
+      <view class="time">
+        364天前
+      </view>
+      <view class="biao" bindtap="bindCaoZuo">
+        <image class="baseimg" src="/images/biao.png"></image>
+      </view>
+    </view>
+    <!-- 点赞 -->
+      <view class="r"></view>
+      <view class="dianzan-box">
+          <view class="dianzan-biao">
+            <image class="baseimg" src="/images/zan.png" mode="aspectFit"></image>
+          </view>
+          <view class="dianzan-text">tttt,kkk</view>
+        </view>
+      <!-- 评论 -->
+    <view class="pinglun-box"  scroll-y>
+      <view class="pinglun-one" bindtap="bindPingLunB">
+        <text class="pinglun-nickname">刘蒙：</text>
+        <text class="pinglun-content">体重</text>
+      </view>
+      <view class="pinglun-one" bindtap="bindPingLunB">
+        <text class="pinglun-nickname">刘蒙：</text>
+        <text class="pinglun-content">体重</text>
+      </view>
+    </view>
+
+</view>
+<!-- 内容区 -->
+<view class="content">
+  <!--头像-->
+    <view class="head">
+      <image class="baseimg" src="/images/bg.jpg"></image>
+    </view>
+    <!--昵称-->
+    <text class="wz">王超</text>
+    <!--内容-->
+    <text class="desc">无解的百草枯，哪怕一滴是接触皮肤了，也是有生命危险的，小孩子不能接触，家里有的把这个都放到孩子够不到的地方。</text>
+    <!--显示发布时间-->
+    <view class="weui-flex" style="margin-top:20rpx;">
+      <view class="time">
+        364天前
+      </view>
+      <view class="biao" bindtap="bindCaoZuo" data-id="1">
+        <image class="baseimg" src="/images/biao.png"></image>
+      </view>
+    </view>
+</view>
+<!-- 内容区 -->
+<view class="content">
+  <!--头像-->
+    <view class="head">
+      <image class="baseimg" src="/images/bg.jpg"></image>
+    </view>
+    <!--昵称-->
+    <text class="wz">王超</text>
+    <!--内容-->
+    <text class="desc">无解的百草枯，哪怕一滴是接触皮肤了，也是有生命危险的，小孩子不能接触，家里有的把这个都放到孩子够不到的地方。</text>
+    <!--显示发布时间-->
+    <view class="weui-flex" style="margin-top:20rpx;">
+      <view class="time">
+        364天前
+      </view>
+      <view class="biao" bindtap="bindCaoZuo" data-id="2">
+        <image class="baseimg" src="/images/biao.png"></image>
+      </view>
+    </view>
+</view>
+<!-- 内容区 -->
+<view class="content">
+  <!--头像-->
+    <view class="head">
+      <image class="baseimg" src="/images/bg.jpg"></image>
+    </view>
+    <!--昵称-->
+    <text class="wz">王超</text>
+    <!--内容-->
+    <text class="desc">无解的百草枯，哪怕一滴是接触皮肤了，也是有生命危险的，小孩子不能接触，家里有的把这个都放到孩子够不到的地方。</text>
+    <!-- 图片 -->
+    <view>
+    </view>
+    <!--显示发布时间-->
+    <view class="weui-flex" style="margin-top:20rpx;">
+      <view class="time">
+        364天前
+      </view>
+      <view class="biao" bindtap="bindCaoZuo" data-id="3">
+        <image class="baseimg" src="/images/biao.png"></image>
+      </view>
+    </view>
+</view>
+
+<!-- 内容区 -->
+<view class="content" style="display: {{kk}};">
+  <!--头像-->
+    <view class="head">
+      <image class="baseimg" src="/images/bg.jpg"></image>
+    </view>
+    <!--昵称-->
+    <text class="wz">王超</text>
+    <!--内容-->
+    <text class="desc">无解的百草枯，哪怕一滴是接触皮肤了，也是有生命危险的，小孩子不能接触，家里有的把这个都放到孩子够不到的地方。</text>
+    <!-- 图片 -->
+    <view>
+    </view>
+    <!--显示发布时间-->
+    <view class="weui-flex" style="margin-top:20rpx;">
+      <view class="time">
+        364天前
+      </view>
+      <view class="biao" bindtap="bindCaoZuo" data-id="3">
+        <image class="baseimg" src="/images/biao.png"></image>
+      </view>
+    </view>
+</view>
+<!-- 内容区 -->
+<view class="content" style="display: {{kk}};">
+  <!--头像-->
+    <view class="head">
+      <image class="baseimg" src="/images/bg.jpg"></image>
+    </view>
+    <!--昵称-->
+    <text class="wz">王超</text>
+    <!--内容-->
+    <text class="desc">无解的百草枯，哪怕一滴是接触皮肤了，也是有生命危险的，小孩子不能接触，家里有的把这个都放到孩子够不到的地方。</text>
+    <!-- 图片 -->
+    <view>
+    </view>
+    <!--显示发布时间-->
+    <view class="weui-flex" style="margin-top:20rpx;">
+      <view class="time">
+        364天前
+      </view>
+      <view class="biao" bindtap="bindCaoZuo" data-id="3">
+        <image class="baseimg" src="/images/biao.png"></image>
+      </view>
+    </view>
+</view>
+
+ <!--点赞评论标签-->
+<view>
+    <view class="caozuo weui-flex" style="top:{{cz_top}}px;"  animation="{{animationData}}">
+        <view class="weui-flex__item" style="display: flex;justify-content: center;align-items: center; " bindtap='dddd'>
+            <image src='/images/h.png' style="width:36rpx;height:36rpx;"></image><text style="margin-left:10rpx;">赞</text>
+        </view>
+        <view class="weui-flex__item" style="display: flex;justify-content: center;align-items: center;" bindtap='eeee'>
+            <image src="/images/p.png" style="width:36rpx;height:36rpx;"></image><text style="margin-left:10rpx;">评论</text>
+        </view>
+    </view>
+</view>
+
+<!-- <view>
+  <input style="position: fixed; bottom:0px;left:0px; background-color:blue;" focus="{{f}}" class="weui-input" placeholder="请输入手机号" />
+</view> -->
+
+<view class="weui-loadmore" style="opacity: {{tt}};">
+  <view class="weui-loading"></view>
+  <view class="weui-loadmore__tips">正在加载</view>
+</view>

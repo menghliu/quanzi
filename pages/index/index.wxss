@@ -1,0 +1,145 @@
+/**index.wxss**/
+ .content
+ {
+    margin-top: 20rpx; 
+    border-bottom:1px solid #F5F5F5;
+    display:flex;
+    flex-direction: column;
+    padding-bottom:20rpx;
+ }
+ .head
+ {
+   width: 90rpx;
+   height: 90rpx;
+   margin-top: 20rpx;
+   margin-left: 20rpx;
+   overflow:hidden;
+ }
+
+ .baseimg
+ {
+   width:100%;
+   height:100%;
+ }
+
+  .wz
+ {
+   margin-top:-90rpx;
+   margin-left:130rpx;
+   margin-right: 20rpx;
+   font-size:13pt;
+   color: #576b95;
+ }
+
+  .desc
+ {
+   margin-top:10rpx;
+   margin-left:130rpx;
+   margin-right:20rpx;
+   font-size:12pt;
+ }
+
+  .time
+ {
+   height:40rpx;
+   font-size:10pt;
+   color:#ccc;
+   margin-left:130rpx;
+ }
+
+ .biao
+ {
+   width: 50rpx;
+   height:40rpx;
+   margin-left: 430rpx;
+ }
+
+.caozuo
+{
+  width:350rpx;
+  height:60rpx;
+  background:rgba(0,0,0,0.7);
+  font-size:10pt;
+  line-height: 60rpx;
+  color:#fff;
+  position:absolute;
+  overflow:hidden;
+  opacity: 0;
+  border-radius:2px;
+  margin-top:-5px;
+  left:280rpx;
+}
+
+/*点赞*/
+.dianzan-box
+{
+  height:50rpx;
+  margin-left:130rpx;
+  margin-right:49rpx;
+  background:#F3F3F5;
+  border-bottom: 1px solid #ccc;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  display: flex;
+}
+
+.dianzan-biao
+{
+  width:35rpx;
+  height:50rpx;
+  position:relative;
+  overflow:hidden;
+  margin-left: 15rpx;
+  display: flex;
+  justify-content: center;
+}
+
+.dianzan-text
+{
+  height:50rpx;
+  position:relative;
+  color:#576b95;
+  font-size:10pt;
+  line-height: 50rpx;
+}
+
+.r
+{
+  border-bottom: 8rpx solid #eee;
+  border-left: 8rpx solid transparent;
+  border-right: 8rpx solid transparent;
+  width: 1rpx;
+  margin-top: 5rpx;
+  margin-left: 150rpx;
+  
+}
+
+.pinglun-box
+{
+  margin-left:130rpx;
+  margin-right:49rpx;
+  background:#F3F3F5;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  padding-bottom:10rpx;
+}
+
+.pinglun-one
+{
+  height:30rpx;
+  line-height: 30rpx;
+  margin-top:10rpx;
+  font-size:10pt;
+}
+
+.pinglun-nickname
+{
+  color:#576b95;
+  
+  margin-left: 15rpx;
+}
+
+.pinglun-content
+{
+  color:#000;
+}
